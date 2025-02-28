@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dignans Catering</title>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="images/logo/main-small-logo.png" type="image/x-icon">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="nav-logo">
+                    <img src="images/logo/main-logo.png" alt="Dignans Main Logo">
+                </div>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="catering.html">CATERING</a></li>
+                        <li><a href="menu.html">MENU</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                        <li><a href="reservation.html">MAKE A RESERVATION</a></li>
+                    </ul>
+                    <button class="register-mobile" onclick="window.location.href='register.html';">
+                        Register
+                    </button>
+                </div>
+                
+                <div class="hamburger">
+                    <svg class="hamburger-open active" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#010101"><path d="M140-254.62v-59.99h680v59.99H140ZM140-450v-60h680v60H140Zm0-195.39v-59.99h680v59.99H140Z"/></svg>
+                    <svg class="hamburger-close" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#010101"><path d="m252.62-217.23-35.39-35.39L444.62-480 217.23-707.38l35.39-35.39L480-515.38l227.38-227.39 35.39 35.39L515.38-480l227.39 227.38-35.39 35.39L480-444.62 252.62-217.23Z"/></svg>
+                </div>
+                <button class="register-desktop" onclick="window.location.href='register.html';">
+                    Register
+                </button>
+            </nav>
+        </header>
+    <main>
+        <section class="banner secondary menu">
+            <div class="text center">
+                <h1>MENU</h1>
+                <p>Freshly Prepared Menus for Every Taste</p>
+            </div>
+        </section>
+        <section>
+            <div class="wrapper bg-line">
+                <div class="menu-dropdown">
+                    <!--Party Menu-->
+                    <div class="dropdown-class">
+                        <div class="menu-dropdown-title" id="party-menu">
+                            <div>
+                                <h3>PARTY MENU</h3>
+                            </div>
+                            <button class="menu-dropdown-btn">
+                                <svg class="plus" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#010101"><path d="M442.12-442.12H193.3v-75.76h248.82v-248.98h75.76v248.98h248.98v75.76H517.88v248.82h-75.76v-248.82Z"/></svg>
+                                <svg class="down" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#010101"><path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z"/></svg>
+                            </button>
+                        </div> 
+                        <div class="menu-con">
+                            <div class="menu-2-col">
+                                <div class="menu-dropdown-text">
+                                    <div class="menu-list">
+                                        <h3>MENU A</h3>
+                                        <h6>£3.00 per person</h6>
+                                        <hr>
+                                        <ul>
+                                            <li>Cocktail Sandwiches</li>
+                                            <li>Chicken Satay Sticks</li>
+                                            <li>Indian Selection</li>
+                                            <li>Vol-au-vents</li>
+                                            <li>Flavoured Sausages on Sticks</li>
+                                        </ul>
+                                    </div>
+                                    <div class="menu-list">
+                                        <h3>MENU B</h3>
+                                        <h6>£4.00 per person</h6>
+                                        <hr>
+                                        <ul>
+                                            <li>Cocktail Sandwiches</li>
+                                            <li>Mini Rolls</li>
+                                            <li>Chicken Satay Sticks</li>
+                                            <li>Savoury Eggs</li>
+                                            <li>Mini Quiche</li>
+                                            <li>Flavoured Sausages on Sticks</li>
+                                        </ul>
+                                    </div>
+                                    <div class="banner-button">
+                                        <button onclick="window.open('DignansMenu.pdf','_blank')">Print Menu</button>
+                                    </div>
+                                </div>
+                                <div class="menu-dropdown-image">
+                                    <img src="images/chicken-satay-sticks.jpg" alt="Chicken-Satay-Sticks">
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+
+                    <!--Lunch Menu-->
+                    <div class="dropdown-class">
+                        <div>
+                            <div class="menu-dropdown-title" id="lunch-menu">
+                                <div>
+                                    <h3>LUNCH MENU</h3>
+                                </div>
+                                <button class="menu-dropdown-btn">
+                                    <svg class="plus" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#010101"><path d="M442.12-442.12H193.3v-75.76h248.82v-248.98h75.76v248.98h248.98v75.76H517.88v248.82h-75.76v-248.82Z"/></svg>
+                                    <svg class="down" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#010101"><path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z"/></svg>
+                                </button>
+                            </div> 
+                            
+                            <div class="menu-con">
+                                <div class="menu-offer">
+                                    <h3>'Mix and Munch' Deal</h3>
+                                    <h6>Pick two or more items from any section and get 10% discount!</h6>
+                                </div>
+                                <div class="menu-2-col reverse">
+                                    <div class="menu-dropdown-text reverse">
+                                        <div class="menu-list">
+                                            <div>
+                                                <h3>Hot Fayre</h3>
+                                                <h6>Price from £0.60 - £1.30</h6>
+                                            <hr>
+                                            <table>
+                                                <tr>
+                                                    <td>Fresh Homemade Soup</td>
+                                                    <td class="price">£0.90</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Homemade Corned Beef Stovies</td>
+                                                    <td class="price">£1.30</td>
+                                                </tr>
+                                            </table>
+                                            </div>
+                                        </div>
+                                        <div class="menu-list">
+                                            <div>
+                                                <h3>Sandwiches, Rolls, and Baguette Fillings</h3>
+                                                <h6>Price from £1.10-£1.70 </h6>
+                                                <hr>
+                                                <div class="list">
+                                                    <ul>
+                                                        <li>Chicken Caesar</li>
+                                                        <li>Ham and Port Salut</li>
+                                                        <li>Chicken and Sweetcorn</li>
+                                                        <li>Brie and Cranberry</li>
+                                                        <li>Egg and Cress</li>
+                                                        <li>Tuna and Sweetcorn</li>
+                                                    </ul>
+                                                    <ul>
+                                                        <li>Greek Salad</li>
+                                                        <li>BLT</li>
+                                                        <li>Veggie Delight</li>
+                                                        <li>Turkey and Coleslaw</li>
+                                                        <li>Cheese Savoury</li>
+                                                        <li>Club Sandwich</li>
+                                                    </ul>
+                                                    <i>Customised options are available upon request.</i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="menu-list">
+                                            <div>
+                                                <h3>SALAD BOXES</h3>
+                                                <h6>Prices from £2.50-£3.50 depending on fillings</h6>
+                                            <hr>
+                                            <table>
+                                                <tr>
+                                                    <td>
+                                                        Chargrilled Chicken Salad <br>
+                                                        <small>Green leaf and red onion salad, spicy coleslaw, cherry tomatoes with pesto drizzle.</small>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        Ploughman's Lunch <br>
+                                                        <small>Green leaf and red onion salad, spicy coleslaw, cherry tomatoes with pesto drizzle.</small>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        King Prawn and Avocado Salad <br>
+                                                        <small>Served with a tangy mayo dressing.</small>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        Traditional Greek Salad <br>
+                                                        <small>Optional: Add chargrilled chicken.</small>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        Baby Beetroot Salad <br>
+                                                        <small>Baby beetroot, buffalo mozzarella, grated carrot, sliced shallots, and a low-fat mint yoghurt dressing.</small>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            </div>
+                                        </div>
+                                        <div class="menu-list">
+                                            <div>
+                                                <h3>FRUIT SALAD BOXES</h3>
+                                                <h6>£1.80</h6>
+                                                <hr>
+                                                <ul>
+                                                    <li>Freshly sliced pineapple, melon, strawberries, kiwi, oranges, and grapes</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="menu-list">
+                                            <div>
+                                                <h3>TRAY BAKES</h3>
+                                                <h6>£0.60</h6>
+                                                <hr>
+                                                <ul>
+                                                    <li>Please ask for variety.</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="menu-list">
+                                            <div>
+                                                <h3>COLD DRINKS</h3>
+                                                <h6>Price from £0.60 - £1.30</h6>
+                                                <hr>
+                                                <table>
+                                                    <tr>
+                                                        <td>Coke, Diet Coke, Irn Bru, Fanta</td>
+                                                        <td class="price">£0.60</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Still and sparkling water (500ml)</td>
+                                                        <td class="price">£0.70</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Flavoured water</td>
+                                                        <td class="price">£1.30</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Fruit smoothie</td>
+                                                        <td class="price">£1.30</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Bottle of fresh orange</td>
+                                                        <td class="price">£0.80</td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <div class="banner-button">
+                                            <button onclick="window.open('DignansMenu.pdf','_blank')">Print Menu</button>
+                                        </div>
+                                    </div>
+                                    <div class="menu-dropdown-image">
+                                        <img src="images/sandwiches.jpg" alt="Cocktail Sandwich">
+                                        <img src="images/fruit-box.jpg" alt="Fruit Box">
+                                    </div>
+                                </div>
+                            
+                            </div>
+                        </div> 
+                    </div>
+                    
+                    <!--CORPORATE CATERING MENU-->
+                    <div class="dropdown-class">
+                        <div class="menu-dropdown-title" id="corporate-menu">
+                            <div>
+                                <h3>CORPORATE CATERING MENU</h3>
+                            </div>
+                            <button class="menu-dropdown-btn">
+                                <svg class="plus" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#010101"><path d="M442.12-442.12H193.3v-75.76h248.82v-248.98h75.76v248.98h248.98v75.76H517.88v248.82h-75.76v-248.82Z"/></svg>
+                                <svg class="down" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#010101"><path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z"/></svg>
+                            </button>
+                        </div> 
+                        <div class="menu-con">
+                            <div class="menu-2-col">
+                                <div class="menu-dropdown-text">
+                                    <div class="menu-list">
+                                        <h3>THE EVERYDAY BUFFET</h3>
+                                        <h6>A Fresh and Tasty Selection for Any Office Gathering</h6>
+                                        <hr>
+                                        <table>
+                                            <tr>
+                                                <td>Mixed Mini Submarine Rolls Platter</td>
+                                                <td class="price">£1.00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Mini Filled Croissants Platter</td>
+                                                <td class="price">£1.00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Filled Wraps Platter</td>
+                                                <td class="price">£1.50</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Mini Bagels Platter</td>
+                                                <td class="price">£1.50</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Mixed Sandwiches Platter</td>
+                                                <td class="price">£1.50</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Fruit Platter for Six <br>
+                                                    <small>Diced fresh pineapple, melon, strawberries, grapes, fresh berries</small>
+                                                </td>
+                                                <td class="price">£8.00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Selection of Mini Cream Cakes</td>
+                                                <td class="price">£1.00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Cartons of Chilled Fresh Orange Juice</td>
+                                                <td class="price">£1.50</td>
+                                            </tr>
+                                        </table>
+                                        <div>
+                                            <br>
+                                            <i>All disposables provided (plates, napkins, glasses, cutlery)</i><br>
+                                            <i>Free mineral water provided for parties of 10 or more</i>
+                                        </div>
+                                    </div>
+                                    <div class="menu-list">
+                                        <h3>EVERYDAY EXTRAS</h3>
+                                        <h6>(Nibbles for the Everyday Buffet) — £1.25 per person:</h6>
+                                        <hr>
+                                        <ul>
+                                            <li>Indian Selection (Vegetarian and Non-Vegetarian)</li>
+                                            <li>Chinese Selection</li>
+                                            <li>Thai Seafood</li>
+                                            <li>Goat's Cheese Bites</li>
+                                            <li>Cream and Pepper Twists</li>
+                                            <li>Satay Sticks</li>
+                                            <li>Flavoured Mini Sausages</li>
+                                            <li>Filled Croustades</li>
+                                            <li>Homemade Roast Vegetable Tartlets with Goat's Cheese Topping</li>
+                                            <li>Breaded King Prawns</li>
+                                            <li>Mini Chicken, Pineapple, and Pepper Skewers</li>
+                                        </ul>
+                                        <div>
+                                            <br>
+                                            <i>  This is only a sample of what we can provide. 
+                                                Feel free to ask for advice. Both hot and cold dishes available to suit your facilities.
+                                            </i>
+                                        </div>
+                                    </div>
+                                    <div class="banner-button">
+                                        <button onclick="window.open('DignansMenu.pdf','_blank')">Print Menu</button>
+                                    </div>
+                                </div>
+                                <div class="menu-dropdown-image">
+                                    <img src="images/mixed-sandwiches.jpg" alt="Mixed Sandwiches">
+                                    <img src="images/indian-selection.jpg" alt="Indian Selection">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Executive Menu-->
+                    <div class="dropdown-class">
+                        <div class="menu-dropdown-title" id="executive-menu">
+                            <div>
+                                <h3>EXECUTIVE MENU</h3>
+                                <h6>(Minimum 10 person)</h6>
+                            </div>
+                            <button class="menu-dropdown-btn">
+                                <svg class="plus" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#010101"><path d="M442.12-442.12H193.3v-75.76h248.82v-248.98h75.76v248.98h248.98v75.76H517.88v248.82h-75.76v-248.82Z"/></svg>
+                                <svg class="down" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#010101"><path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z"/></svg>
+                            </button>
+                        </div> 
+                        <div class="menu-con">
+                            <div class="menu-2-col reverse">
+                                <div class="menu-dropdown-text reverse">
+                                    <div class="menu-list">
+                                        <h3>MENU A</h3>
+                                        <h6>£7.50 per Person</h6>
+                                        <hr>
+                                        <table>
+                                            <tr>
+                                                <td>
+                                                    Mediterranean Pepper Quiche <br>
+                                                    <small>Served with a light, flaky crust and roasted peppers.</small>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Sliced Game Pie <br>
+                                                    <small>Traditional savory pie filled with a selection of game meats.</small>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Mixed Leaf and Red Onion Salad <br>
+                                                    <small>Fresh mixed greens with thinly sliced red onion and light dressing.</small>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Chunky Potato and Chive Salad <br>
+                                                    <small>Hearty potato salad with fresh chives and creamy dressing.</small>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Profiteroles with Chocolate Sauce <br>
+                                                    <small>Delicate choux pastries filled with cream and drizzled with chocolate.</small>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Petit Pans <br>
+                                                    <small>Soft, freshly baked mini bread rolls.</small>
+                                                </td>
+                                            </tr>
+                                        
+                                        </table>
+                                    </div>
+                                    <div class="menu-list">
+                                        <h3>MENU B</h3>
+                                        <h6>£9.00 per Person</h6>
+                                        <hr>
+                                        <table>
+                                            <tr>
+                                                <td>
+                                                    Poached Salmon with Mini King Prawn Sticks <br>
+                                                    <small>Delicate poached salmon served with skewered king prawns.</small>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Roast Beef with Horseradish Tomato <br>
+                                                    <small>Thinly sliced roast beef with a tangy horseradish tomato garnish.</small>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Sliced Buffalo Mozzarella Salad <br>
+                                                    <small>With cherry tomatoes, red onion, and tangy mango dressing.</small>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Couscous with Fresh Mint and Cucumber <br>
+                                                    <small>Served with a yogurt dip for a refreshing taste.</small>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Green Leaf and Spinach Salad <br>
+                                                    <small>Light and fresh greens for a perfect side.</small>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Fresh Raspberry and Mascarpone Cheesecake <br>
+                                                    <small>Rich cheesecake topped with fresh raspberries.</small>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Petit Pans <br>
+                                                    <small>Soft, freshly baked mini bread rolls.</small>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="menu-list">
+                                        <h3>MENU C</h3>
+                                        <h6>£10.50 per Person</h6>
+                                        <hr>
+                                        <table>
+                                            <tr>
+                                                <td>
+                                                    Roast Loin of Pork <br>
+                                                    <small>With mustard and honey dressing.</small>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Honey Glazed Ham <br>
+                                                    <small>Served with fresh pineapple.</small>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Roast Vegetable Tartlets <br>
+                                                    <small>With toasted goat's cheese topping.</small>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Traditional Greek Salad <br>
+                                                    <small>Optional: Add chargrilled chicken.</small>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Penne Pasta with Tomato Chilli Dressing <br>
+                                                    <small>Spicy and flavorful Italian-style pasta.</small>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Chunky Potato Salad <br>
+                                                    <small>With bacon and crème fraîche.</small>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Mixed Salad with Green Pesto <br>
+                                                    <small>A fresh mix of greens with a pesto drizzle.</small>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Brandy Basket Dessert <br>
+                                                    <small>Filled with strawberry crème fraîche and fruit coulis.</small>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Petit Pans <br>
+                                                    <small>Soft, freshly baked mini bread rolls.</small>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="banner-button">
+                                        <button onclick="window.open('DignansMenu.pdf','_blank')">Print Menu</button>
+                                    </div>
+                                </div>
+                                <div class="menu-dropdown-image">
+                                    <img src="images/executive-menu_enhanced.jpg" alt="executive menu C">
+                                    <img src="images/executive-menu-B.jpg" alt="executive menu B">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--BREAKFAST Menu-->
+                    <div class="dropdown-class">
+                        <div class="menu-dropdown-title" id="breakfast-menu">
+                            <div>
+                                <h3>BREAKFAST MENU</h3>
+                            </div>
+                            <button class="menu-dropdown-btn">
+                                <svg class="plus" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#010101"><path d="M442.12-442.12H193.3v-75.76h248.82v-248.98h75.76v248.98h248.98v75.76H517.88v248.82h-75.76v-248.82Z"/></svg>
+                                <svg class="down" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#010101"><path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z"/></svg>
+                            </button>
+                        </div> 
+                        <div class="menu-con">
+                            <div class="menu-2-col">
+                                <div class="menu-dropdown-text">
+                                    <div class="menu-list">
+                                        <h3>Hot Breakfast</h3>
+                                        <h6>£4.50 per person</h6>
+                                        <hr>
+                                        <ul>
+                                            <li>Hot Bacon Rolls</li>
+                                            <li>Fresh Orange Juice or Fruit Smoothie</li>
+                                            <li>Tea and Coffee</li>
+                                        </ul>
+                                    </div>
+                                    
+                                    <div class="menu-list">
+                                        <h3>Continental Breakfast</h3>
+                                        <h6>£5.50 per person</h6>
+                                        <hr>
+                                        <ul>
+                                            <li>Croissants, Jam, and Butter</li>
+                                            <li>Danish Pastries</li>
+                                            <li>Scones with Whipped Cream and Jam Compote</li>
+                                            <li>Mixed Fruit Platter</li>
+                                            <li>Fresh Orange Juice or Fruit Smoothie</li>
+                                            <li>Tea and Coffee</li>
+                                        </ul>
+                                        <br>
+                                        <i>All Equipment Provided</i>
+                                    </div>
+                                    <div class="banner-button">
+                                        <button onclick="window.open('DignansMenu.pdf','_blank')">Print Menu</button>
+                                    </div>
+                                </div>
+                                <div class="menu-dropdown-image">
+                                    <img src="images/breakfast-menu.jpg" alt="breakfast-buffet">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--OFFICE BARBEQUE-->
+                    <div class="dropdown-class">
+                        <div class="menu-dropdown-title" id="office-bbq-menu">
+                            <div>
+                                <h3>OFFICE BARBEQUE MENU</h3>
+                            </div>
+                            <button class="menu-dropdown-btn">
+                                <svg class="plus" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#010101"><path d="M442.12-442.12H193.3v-75.76h248.82v-248.98h75.76v248.98h248.98v75.76H517.88v248.82h-75.76v-248.82Z"/></svg>
+                                <svg class="down" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#010101"><path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z"/></svg>
+                            </button>
+                        </div> 
+                        <div class="menu-con">
+                            <div class="menu-2-col reverse">
+                                <div class="menu-dropdown-text reverse">
+                                    <div class="menu-list">
+                                        <h3>BBQ FEAST MENU</h3>
+                                        <h6>Flame-Grilled Perfection with Fresh and Flavorful Sides</h6>
+                                        <hr>
+                                        <ul>
+                                            <li>Steak Sandwiches with Salsa Verde</li>
+                                            <li>Chicken, Pepper, and Pineapple Kebabs</li>
+                                            <li>Greek-Style Pitta Bread</li>
+                                            <li>Chargrilled Bratwursts with Caramelized Onion</li>
+                                            <li>King Prawn Skewers</li>
+                                            <li>Steak Ciabatta Bread</li>
+                                            
+                                            <li>Petit Pans with Butter</li>
+                                            <li>Fresh Fruit Salad</li>
+                                            <li>
+                                                A Selection of Salads:
+                                                <ul>
+                                                    <li class="margin">Green Salad</li>
+                                                    <li class="margin">Potato Salad with Crème Fraîche</li>
+                                                    <li class="margin">Coleslaw with Red Onion</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                        <br>
+                                        <i>All Disposables Supplied.</i> <br>
+                                        <i>Drinks Can Be Supplied on Order for £9.50 per person</i><br>
+                                        <i>We Can Organise a Complete Office Barbecue, Including Menus and Staff</i>
+                                    </div>
+                                    <div class="banner-button">
+                                        <button onclick="window.open('DignansMenu.pdf','_blank')">Print Menu</button>
+                                    </div>
+                                </div>
+                                <div class="menu-dropdown-image">
+                                    <img src="images/bbq-selection.jpg" alt="barbeque selection">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="space-between footer">
+            <div class="soc-links">
+                <a href="https://www.facebook.com/GlasgowClyde"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="https://www.instagram.com/glasgowclyde/"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://www.youtube.com/user/GlasgowClyde"><i class='bx bxl-youtube'></i></a>
+                <a href="https://www.tiktok.com/@glasgow_clyde_college"><i class='bx bxl-tiktok' ></i></a>
+            </div>
+            <div class="nav-logo">
+                <img src="images/logo/main-small-logo.png" alt="Dignans Small Logo">
+            </div>
+        </div>
+        <hr>
+        <div class="footer-con">
+            <div class="newsletter">
+                <div>
+                    <div>
+                        <h3>Newsletter</h3>
+                        <h6>Subscribe for latest news and update!</h6>
+                    </div>
+                    <form action="#">
+                        <input type="email" id="email" name="email" placeholder="Email Address" required>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-text-con">
+                <div class="footer-links">
+                    <h4>LINKS</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="catering.html">Catering</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="reservation.html">Make a Reservation</a></li>
+                        <li><a href="register.html">Register</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <div>
+                        <h4>CONTACT</h4>
+                        <table>  
+                            <tr>  
+                                <td><a href="tel:+4413155512341sample"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#010101"><path d="M798-120q-125 0-247-54.5T329-329Q229-429 174.5-551T120-798q0-18 12-30t30-12h162q14 0 25 9.5t13 22.5l26 140q2 16-1 27t-11 19l-97 98q20 37 47.5 71.5T387-386q31 31 65 57.5t72 48.5l94-94q9-9 23.5-13.5T670-390l138 28q14 4 23 14.5t9 23.5v162q0 18-12 30t-30 12ZM241-600l66-66-17-94h-89q5 41 14 81t26 79Zm358 358q39 17 79.5 27t81.5 13v-88l-94-19-67 67ZM241-600Zm358 358Z"/></svg></a></td>  
+                                <td><a href="tel:+441315551234sample">+44 131 555 1234</a></td>  
+                            </tr>  
+                            <tr>  
+                                <td><a href="mailto:sampleemaildignanscatering@gmail.com"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#010101"><path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80 320-200H160l320 200ZM160-640v-80 480-400Z"/></svg></a></td>  
+                                <td><a href="mailto:sampleemaildignanscatering@gmail.com">dignanscatering@gmail.com</a></td>  
+                            </tr>  
+                        </table>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <div>
+                        <h4>LOCATION</h4>
+                        <table>
+                            <tr>  
+                                <td><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#010101"><path d="m600-120-240-84-186 72q-20 8-37-4.5T120-170v-560q0-13 7.5-23t20.5-15l212-72 240 84 186-72q20-8 37 4.5t17 33.5v560q0 13-7.5 23T812-192l-212 72Zm-40-98v-468l-160-56v468l160 56Zm80 0 120-40v-474l-120 46v468Zm-440-10 120-46v-468l-120 40v474Zm440-458v468-468Zm-320-56v468-468Z"/></svg></td>  
+                                <td><a href="https://www.google.com/maps?q=45+Queen+Street,+Edinburgh,+Scotland+EH2+3NH">45 Queen Street, <br> Edinburgh, Scotland <br> EH2 3NH</a></td>  
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="copyrights">
+            <small>© 2025 Dignans Catering. All Rights Reserved.</small>
+        </div>
+    </footer>
+    <script src="./script.js">
+    </script>
+    </body>
+</html>
