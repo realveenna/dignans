@@ -507,6 +507,10 @@ img{
     bottom: 0px;
     left: 0px;
 }
+.image-small img,
+.image-large img{
+     box-shadow: var(--shadow);
+}
 
 
 /*Catering Index*/
