@@ -507,8 +507,8 @@ img{
     bottom: 0px;
     left: 0px;
 }
-.image-small img,
-.image-large img{
+.image-small,
+.image-large{
      box-shadow: var(--shadow);
 }
 
