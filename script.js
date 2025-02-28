@@ -58,14 +58,14 @@ document.querySelectorAll(".dropdown-class").forEach((menu) => {
     });
 });
 document.addEventListener("DOMContentLoaded", function () {
-    const hash = window.location.hash; // Get the current hash (e.g., #party-menu)
+    const hash = window.location.hash; 
     if (hash) {
-        const targetSection = document.querySelector(hash); // Find the matching section
+        const targetSection = document.querySelector(hash);
         if (targetSection) {
             const menuButton = targetSection.querySelector(".menu-dropdown-btn");
             if (menuButton) {
-                menuButton.click(); // Simulate a click
-                menuButton.classList.add("active"); // Add a class for styling if needed
+                menuButton.click(); 
+                menuButton.classList.add("active"); 
             }
         }
     }
